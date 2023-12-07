@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri Light;
+}
+
+/*Top Navigation bar**/
+header {
+  position: fixed; /*to make nav bar sit on top*/
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  width: 100%;
+  background-color: orangered;
+}
+
+/*shopee letter logo*/
+.logo h1 {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 140px;
+  margin-bottom: -115px;
+}
+
+/*shopee icon logo*/
+img.shopee-icon {
+  margin-top: 50px;
+  margin-left: 68px;
+  margin-bottom: -5px;
+}
+
+/*top nav unordered list settings*/
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: -60px;
+  margin-left: -200px;
+}
+
+/*top nav unordered list items settings, Seller Centre, Start Selling, etc*/
+nav ul li a {
+  display: inline;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/*top nav unordered list settings, Notification, Help and English */
+nav ul1 {
+  display: flex;
+  list-style: none;
+  margin-top: -20px;
+  margin-left: 500px;
+}
+
+/*top nav unordered list items settings, Notification, Help and English */
+nav ul1 li a {
+  display: inline;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/*top nav unordered list settings, Sign up and Login */
+nav ul2 {
+  display: flex;
+  list-style: none;
+  margin-top: -20px;
+  margin-left: 770px;
+}
+
+/*top nav unordered list items settings, Sign up and Login */
+nav ul2 li a {
+  display: inline;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*top navigation form setting */
+.container form{
+  margin-left: -900px;
+  margin-bottom: -150px;
+  position: relative;
+  }
+
+/*top navigation form input setting */
+.container form input{
+  position: relative;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  background-color: #fafafa;
+  padding: 10px 5px;
+  width: 95%;
+  font-size: 14px;
+}
+
+/*top navigation form input behavior and settings */
+.container form input:last-of-type{
+  margin-top: -10px;
+  margin-bottom: 3px;
+}
+
+/*form unordered list setting */
+.container form ul li {
+  list-style: none;
+  display: inline;
+}
+
+/*form below text lists setting, 1 Peso Polo, 1 Peso Case, etc. */
+.container form ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  font-family: Calibri Light;
+}
+
+/*search button settings */
+.search-button{
+  cursor: pointer;
+  position: absolute;
+  padding: 5px 10px;
+  color: white;
+  background-color: orangered;
+  border-color: white;
+  border-radius: 7px;
+  border-width: 5px;
+  float:inline-end;
+  right: 105px;
+  top: 54px;
+}
+
+/*facebook icon settings */
+i.fab.fa-facebook{
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+/*instagram icon settings */
+i.fab.fa-instagram{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/*shopping cart icon settings */
+i.fas.fa-shopping-cart {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/*bell icon settings */
+i.far.fa-bell{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/*question mark icon settings */
+i.fa.fa-question-circle{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/*globe icon settings */
+i.fas.fa-globe{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/*banner page settings */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+
+.deals hr{
+  border-bottom: 1px solid orangered;
+  width: 100%;
+}
+
+.deals h1{
+  color: #8e9096;
+  margin: 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.deals p{
+  color: #8e9096;
+  font-size: 18px;
+  margin: 30px;
+}
+
+.bottom-line{
+  border-bottom: 1px solid #8e9096;
+  width: 100%;
+}
+
+.categories h4{
+  color: #8e9096;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.categories h3{
+  color: #8e9096;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.categories p{
+  color: #8e9096;
+  column-count: 5;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.categories p:hover{
+  color: orangered;
+}
